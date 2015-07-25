@@ -29,7 +29,7 @@ cacheSolve <- function(x, ...) {
 }
 
 # Testing
-test <- matrix(runif(9,1,100),3,3)
+test <- matrix(runif(4,1,100),2,2)
 testCached <- makeCacheMatrix(test)
 
 
